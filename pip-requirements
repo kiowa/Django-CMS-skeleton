@@ -35,9 +35,9 @@ coverage
 django-google-analytics
 
 # Better file support for the cms
-django-filer
+-e git://github.com/steffoulis/django-filer.git#egg=django-filer
 cmsplugin-filer
 
 # Versioning of content
-django-reversion
+django-reversion==1.5
 
