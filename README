@@ -2,10 +2,12 @@ A django-cms skeleton to make things quicker to set up.
 
 Fork this project and set up by:
 
+mkdir static media
 pip -E ENV install -r pip-requirements
 source ENV/bin/activate
 python manage.py syncdb
 python manage.py migrate
 
 Edit settings.py and local_settings.py
+
 
