@@ -1,6 +1,30 @@
 A django-cms skeleton to make things quicker to set up.
 
-Fork this project and set up by:
+
+FORK THIS PROJECT: (http://bitdrift.com/post/4534738938/fork-your-own-project-on-github)
+
+Create a new project on github named my-new-django-project.
+
+$ git clone git@github.com:kiowa/Django-CMS-skeleton.git my-new-django-project
+
+# edit git config to replace origin url
+$ cd bar
+$ vim .git/config
+[remote "origin"]
+    fetch = +refs/heads/*:refs/remotes/origin/*
+    url = git@github.com:kiowa/my-new-django-project.git
+
+#Optionally add your original repo as an upstream source:
+$ git remote add upstream git@github.com:kiowa/Django-CMS-skeleton.git
+
+# Finally, push your new repository up to GitHub:
+$ git push -u origin master
+
+# push/pull and merge
+$ git fetch upstream
+$ git merge upstream/master
+
+SETUP:
 
 mkdir static media
 pip -E ENV install -r pip-requirements
