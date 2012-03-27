@@ -1,0 +1,43 @@
+# The web framework
+Django==1.3.1
+
+# CMS for Django
+django-cms==2.2
+
+# Mysql support
+mysql-python
+
+# Image processing
+PIL
+
+# Searching the site
+django-haystack
+
+# Search module for haystack
+whoosh
+
+# TinyMCE editor for the cms
+django-tinymce
+
+# Thumbnail generator
+sorl-thumbnail
+
+# Migration of databases
+south
+
+#Easier test running
+django-nose
+
+# Code coverage
+coverage
+
+# Google Analytics
+django-google-analytics
+
+# Better file support for the cms
+django-filer
+cmsplugin-filer
+
+# Versioning of content
+django-reversion
+
