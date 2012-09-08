@@ -20,7 +20,7 @@ whoosh
 django-tinymce
 
 # Thumbnail generator
-sorl-thumbnail
+easy-thumbnail
 
 # Migration of databases
 south
@@ -35,7 +35,7 @@ coverage
 django-google-analytics
 
 # Better file support for the cms
--e git://github.com/steffoulis/django-filer.git#egg=django-filer
+django-filer
 cmsplugin-filer
 
 # Versioning of content
